@@ -1,0 +1,31 @@
+#====================
+Outline:
+
+1) No nans, unbalanced
+2) Imputation
+3) Bagging 
+
+
+#=====================
+
+We took three approaches to imputation
+
+1) Simple Imptuation using the Mode
+2) Random Forest
+3) KNN
+
+#======================
+
+First we took out all the missing variables for a trial run.
+
+We found out the data was unbalanced.
+
+We went back for imputation and started with the biggest challenge which was replacing the missing variables for the Native Country variable, a categorical variable consisting of more than 80 categories. In order to tackle this issue we factorized the variable in order to turn its string values (country names) into a list of corresponding integers. We then ran the filter method to find out which features correlated the most heavily with this variable in order to select which features we would use for our probability based prediction. 
+
+Ranking each of feature’s relationship to the Native Country variable based on the absolute value of the Pearson Coefficient correlation, we found that the Race variable was the most heavily correlated with the native country variable so. 
+
+We then set out to predict for Native Country with the race variable expanded into four binary columns:  American-Indian-Eskimo, Asian-Pac-Islander, Black, Other, White. When training and testing algorithms on the training data set, Naïve Bayes yielded an extremely low accuracy score of 0.456 %, whereas Logistic Regression gave a 90.95% accuracy score. Our Logistic Regression results suggested we should replace all 583 missing values  within Native Country with the value of the ‘United-States’.
+
+
+
+
