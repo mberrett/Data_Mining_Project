@@ -10,6 +10,7 @@ a. Drop Missing Values, Unbalanced Data
 2. Second Run
 a. Imputation, Unbalanced Data
 i. Mode Imputation
+ii. Simple Imputation
 ii. RandomForest Imputation
 iii. KNN Imputation
 
