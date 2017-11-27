@@ -4,13 +4,18 @@ by Matias Berretta, Vaibhav Dixit, Rohini Mandge
 
 Project Outline
 
-1. Section 1
+Test Ensemble Classifier consisiting of five other classifiers: Random Forest, K-Nearest Neighbors, Logistic Regression, SVM, Naive Bayes. 
 
-    a) Drop All Missing Values, Unbalanced Data
+For each data set, test ensemble classifier with and without bagging from sklearn.ensemble to address unbalanced nature of the data. 
 
-2. Section 2
+1. Section 1: Preliminary Test
+
+    a) Drop All Missing Values
+    i. test with and without bagging 
+
+2. Section 2: Imputation
     
-    a) Imputation, Unbalanced Data
+    a) Imputation
 
     i. Mode (most-frequent) Imputation
 
@@ -18,8 +23,7 @@ Project Outline
 
     iii. KNN Imputation
 
-3. Section 3
+3. Section 3: Optimization
 
-    a) Imputation, Balanced Data
-
-    i. Bagging from sklearn.ensemble
+    a) Find the best parameters for each algorithm in the ensemble classifier 
+  
