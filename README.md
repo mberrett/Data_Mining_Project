@@ -12,7 +12,7 @@ Basic Outline
     
     a) Imputation, Unbalanced Data
 
-    i. Mode (most-frequent) Imptuation
+    i. Mode (most-frequent) Imputation
 
     ii. RandomForest Imputation
 
