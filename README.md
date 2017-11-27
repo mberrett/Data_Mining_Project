@@ -1,8 +1,8 @@
 # Data_Mining_Project
 
-Matias, Vaibhav, Rohini
+by Matias Berretta, Vaibhav Dixit, Rohini Mandge
 
-Basic Outline
+Project Outline
 
 1. Section 1
 
