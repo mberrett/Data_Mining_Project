@@ -6,19 +6,17 @@ Basic Outline
 
 1. Section 1
 
-    a) Drop Missing Values, Unbalanced Data
+    a) Drop All Missing Values, Unbalanced Data
 
 2. Section 2
     
     a) Imputation, Unbalanced Data
 
-    i. Drop All Missing Values
+    i. Mode (most-frequent) Imptuation
 
-    ii. Mode (most-frequent) Imptuation
+    ii. RandomForest Imputation
 
-    iii. RandomForest Imputation
-
-    iv. KNN Imputation
+    iii. KNN Imputation
 
 3. Section 3
 
