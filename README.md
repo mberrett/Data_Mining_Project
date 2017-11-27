@@ -12,13 +12,13 @@ a. Drop Missing Values, Unbalanced Data
 
 a. Imputation, Unbalanced Data
 
-i. Drop All Missing Values
+    i. Drop All Missing Values
 
-ii. Mode (most-frequent) Imptuation
+    ii. Mode (most-frequent) Imptuation
 
-iii. RandomForest Imputation
+    iii. RandomForest Imputation
 
-iv. KNN Imputation
+    iv. KNN Imputation
 
 3. Section 3
 
