@@ -4,11 +4,11 @@ Matias, Vaibhav, Rohini
 
 Basic Outline
 
-1. First Run
+1. Section 1
 
 a. Drop Missing Values, Unbalanced Data
 
-2. Second Run
+2. Section 2
 
 a. Imputation, Unbalanced Data
 
@@ -20,7 +20,7 @@ iii. RandomForest Imputation
 
 iv. KNN Imputation
 
-3. Third Run
+3. Section 3
 
 a. Imputation, Balanced Data
 
