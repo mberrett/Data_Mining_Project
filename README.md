@@ -6,11 +6,11 @@ Basic Outline
 
 1. Section 1
 
-a. Drop Missing Values, Unbalanced Data
+    a) Drop Missing Values, Unbalanced Data
 
 2. Section 2
-
-a. Imputation, Unbalanced Data
+    
+    a) Imputation, Unbalanced Data
 
     i. Drop All Missing Values
 
@@ -22,6 +22,6 @@ a. Imputation, Unbalanced Data
 
 3. Section 3
 
-a. Imputation, Balanced Data
+    a) Imputation, Balanced Data
 
-i. Bagging
+    i. Bagging from sklearn.ensemble
